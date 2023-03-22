@@ -1,0 +1,1852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		58E2C5F21AEC4431B3757919 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2A1033AA4D3D40A486FA3C4C /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				22FF245F0D850990E987CDB8 /* Generate CGL/deps/glfw/CMakeFiles/uninstall */,
+			);
+			dependencies = (
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		74EB012591084DD598CAA23D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 376A9FD888954356A3C697BE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				66DAD5CABC20674CC906CBED /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				82699A0D475B4BEB8BE0BE3B /* PBXTargetDependency */,
+				55DD249D14A1460F9A33A4A2 /* PBXTargetDependency */,
+				4C6F338B5CFA49F5A2975E99 /* PBXTargetDependency */,
+				3ABDE68F075B4335A8108E2C /* PBXTargetDependency */,
+				259A11DE4F42457BA06A30D7 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E9890C93D1EA4FE98F987081 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DA321F6331394FDABF6EBF26 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				E969375DA52048DA92CCF459 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		F866F1FF82CF4256A1424597 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ECFC588022D149FE82A453F9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F665711106D2B577C7CEB00C /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0118DFE54EF04AF3A6A88DCF /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 25A8B714AA944D43901B5DF2 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		0D4287B298EC4AD8939B1B00 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector4D.cpp */ = {isa = PBXBuildFile; fileRef = 97E56C6FF7F84A0C923B297F /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector4D.cpp */; };
+		20200D2A0F55435E8C3C761D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 88DB3232CF7D485E8982584D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/tinyxml2.cpp */; };
+		224993678DB247C4A4D9B8D8 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = EFB3532EEACD4040A7CDD48D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/osmesa_context.h */; };
+		273E997BBDCD474783CA116E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 8C8B493CD34F423E88ADB041 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		2AEF3D57161142ECA6B15E64 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 85088B1177744274AB577833 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include/GLFW/glfw3native.h */; };
+		2F14B058CEA643C1902BDBE2 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/main.cpp */ = {isa = PBXBuildFile; fileRef = B10EB7A9937C48299E57563A /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/main.cpp */; };
+		2FFAD30C18B4455D84B3C77E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/complex.cpp */ = {isa = PBXBuildFile; fileRef = 44FF1922D5D04FC9B85DC5AC /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/complex.cpp */; };
+		3458AA22295D4E46B8BAB32C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/lodepng.cpp */ = {isa = PBXBuildFile; fileRef = 431A760C7E994381B29DAB04 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/lodepng.cpp */; };
+		36A2F771753C4974A0E3AE2E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 4DE048B665064FAB8D845ABD /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_joystick.m */; };
+		3706EBDF2A5344E2A07DD7E1 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 009EAF5E1E8F4F5EAE51DFB1 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		3E7FA4E700F747209A5C5A24 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/base64.cpp */ = {isa = PBXBuildFile; fileRef = 4A1053CE1318487BBACA9420 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/base64.cpp */; };
+		45A2A31F119843D6A7C5EBC8 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = EABE0EE97CDA42E7AF791B7D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		45C367C3E2344EB0A6B1992B /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 774A359F691740FC8AC3A0AE /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/CMakeLists.txt */; };
+		461CA98DCA544FD1B9957397 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = D0D074EA72E3405EBAD7DC66 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/egl_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		515056F6197B4DB8B1FCB88E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/path.cpp */ = {isa = PBXBuildFile; fileRef = 1FD2B44807964F4CBAFEC01E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/path.cpp */; };
+		5F916969608C48E78D0975E2 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 75BA1460609E427E912B7778 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_init.m */; };
+		6323FEC57D954DF8993C02B7 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/quaternion.cpp */ = {isa = PBXBuildFile; fileRef = 8D837C8811E347A4B7E41F6E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/quaternion.cpp */; };
+		6A797F5DED4F437BB9AA8CA9 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DC6F939B7707459F853DB378 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/CMakeLists.txt */; };
+		6C63CDD030E248909A07C9DA /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/matrix3x3.cpp */ = {isa = PBXBuildFile; fileRef = 1C7A23D8EDC64868B0D7A067 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/matrix3x3.cpp */; };
+		6F73109461274E7BAB54D122 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/spectrum.cpp */ = {isa = PBXBuildFile; fileRef = 2162F726E6604DFE83ED0261 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/spectrum.cpp */; };
+		73748ECB74454E32AD7B5B69 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 74DDF43599954AC5A6054FCE /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/posix_thread.h */; };
+		76D6546DCE2C4E2BBFFE4076 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/matrix4x4.cpp */ = {isa = PBXBuildFile; fileRef = 97281860555B4874A284518C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/matrix4x4.cpp */; };
+		7AD9A1B403E347ED80B39CF3 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/glew.c */ = {isa = PBXBuildFile; fileRef = 8EFF4973805C49FDB33C0239 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/glew.c */; };
+		7BE0A455576D42EBB2BE71DD /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 88120DBA4E1C4A338703C007 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/CMakeLists.txt */; };
+		7D18389CDEF74116AD6BE470 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXBuildFile; fileRef = 73F99A35E2404BD5AB04F7D2 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework */; };
+		835DC411BB8048F2808B89C3 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = FF8CD4D57A1D495A8E81A4E1 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/posix_thread.c */; };
+		8B1987D0A10E4A4C8B1BDB6D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector3D.cpp */ = {isa = PBXBuildFile; fileRef = 1F04F92E443C4F75A36D15DF /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector3D.cpp */; };
+		939F1375448848CA96DB6F8C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector2D.cpp */ = {isa = PBXBuildFile; fileRef = A92A5DDCD604422AAD34F30B /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector2D.cpp */; };
+		95B0376767C84A6086E850DE /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 9A7FA483402C46B68431F1E0 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/nsgl_context.m */; };
+		99D6A0B90B464A53885772DC /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F3914DCA46F847F69BCA257C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/CMakeLists.txt */; };
+		9B58FFC27354408E8887B196 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 3EC0B060D6644632AACD1D02 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/glfw_config.h */; };
+		9FF672196EF5436B90003311 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = D66C1C87EE0440238C7308FC /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/nsgl_context.h */; };
+		BA5707FEE3C44FB887C8C23B /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 4DAAB76C39F844A28F4F379C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include/GLFW/glfw3.h */; };
+		BACD547A61694ED2AA12C6B7 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 20678527E8134ABCBBA16AE9 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_monitor.m */; };
+		BFD1409E90EA4CAAB377536A /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = B287A92D2FE545D4BEC5761A /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_time.c */; };
+		C36C55D359114C2AABDD4862 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = 43823A01955D49E19E543520 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/egl_context.h */; };
+		C4A735E5036E4D06B3134690 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = A4BF4149250C433981D2BE9D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_joystick.h */; };
+		C8EC909344D241EEAD911616 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/glewinfo.c */ = {isa = PBXBuildFile; fileRef = F8B097C6E26D431883C74935 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/glewinfo.c */; };
+		CE06B984583140AC80EDF071 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/color.cpp */ = {isa = PBXBuildFile; fileRef = 8B3EB995E7DE402D8F953D06 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/color.cpp */; };
+		D0CE76B9F57E46E1BBC3A45B /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = BA9FC4F40C6D45A5AAF66315 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		D501DCC6CF034C388333FCF7 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/osdtext.cpp */ = {isa = PBXBuildFile; fileRef = 3BF8195BC5914AE5819D278E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/osdtext.cpp */; };
+		D5100AB8AE8A4A1D849AFE61 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 3FCDA7FAF9E940EDA90E3B89 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		DF49972BF7924543887D3E17 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 2BDCBF6AC11D429BAA0C5002 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/internal.h */; };
+		E68BA2407AAE4D17AD673498 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 7DE3F125B090455F82C88BC8 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/mappings.h */; };
+		E74C6282255D43B3B5A326BB /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 8C7ED250BFFC461E8F082F01 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_platform.h */; };
+		ECAA4A43CC244097BA5CCECE /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = C92990DBA3A64BF894D8EAA6 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_window.m */; };
+		F2C03BDA9AE5432099DBB9B2 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/application.cpp */ = {isa = PBXBuildFile; fileRef = ADFDC9744AAF4B8AB5E6762D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/application.cpp */; };
+		F2D524CAFD3B470C8485634D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/viewer.cpp */ = {isa = PBXBuildFile; fileRef = 587532DA40744680987881B9 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/viewer.cpp */; };
+		F8C0E23CFBC94896B2247172 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/rope.cpp */ = {isa = PBXBuildFile; fileRef = B304386B187145C790AFA123 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/rope.cpp */; };
+		F9B2C97FF614439DA19AA326 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/osdfont.cpp */ = {isa = PBXBuildFile; fileRef = 8886BFA37A724E67B703F5E7 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/osdfont.cpp */; };
+		FA2B35581789464F820C922B /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/visualinfo.c */ = {isa = PBXBuildFile; fileRef = 57A57CEA18E447BD98E6B88E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/visualinfo.c */; };
+		FAF75E5FD23540C4A0898296 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = DF51112BBFF24EB48D9B6551 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/osmesa_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		059AAFB746234257AC57B1BC /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		27F9A327BCAB48D0B90518F0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		A92EB66DB07F4E37B1A0A0CE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		BBC2B4A898894D0AAA4D126A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1C9FB49B7312423598E163D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F866F1FF82CF4256A1424597;
+			remoteInfo = ZERO_CHECK;
+		};
+		2280EB2CB22341408CD0804B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F866F1FF82CF4256A1424597;
+			remoteInfo = ZERO_CHECK;
+		};
+		256499B4196B478A90163892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F866F1FF82CF4256A1424597;
+			remoteInfo = ZERO_CHECK;
+		};
+		336DB31DBAF244B88EAFBCB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845E9EE9F3994A71959525DB;
+			remoteInfo = CGL;
+		};
+		4E4CA34CD5E044C3AB7DCC73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E540913457246659FB28859;
+			remoteInfo = glfw;
+		};
+		8601C91F76D9434B8CEB120E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E540913457246659FB28859;
+			remoteInfo = glfw;
+		};
+		93A9AA9A66B24EE39C7F466F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845E9EE9F3994A71959525DB;
+			remoteInfo = CGL;
+		};
+		9619690BA9E144DCB70CF745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C3E17ACA2C405DAA1BA7FA;
+			remoteInfo = glew;
+		};
+		A9D1EEBCFE8C49289CDF333D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74EB012591084DD598CAA23D;
+			remoteInfo = ALL_BUILD;
+		};
+		AB7D7C304CC844A7BB690021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C3E17ACA2C405DAA1BA7FA;
+			remoteInfo = glew;
+		};
+		BF55B5359C41420298802B66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C3E17ACA2C405DAA1BA7FA;
+			remoteInfo = glew;
+		};
+		C09BC3D990604ED39465DF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979FD2A22FFB4B1AA0B31523;
+			remoteInfo = ropesim;
+		};
+		D707299AA78A462DAB83C527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E540913457246659FB28859;
+			remoteInfo = glfw;
+		};
+		E6D95F5111CF4F4684FD3348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F866F1FF82CF4256A1424597;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009EAF5E1E8F4F5EAE51DFB1 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = CGL/deps/glfw/src/window.c; sourceTree = SOURCE_ROOT; };
+		0AB6CADDB8A446CF86E0B839 /* glew */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglew.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7A23D8EDC64868B0D7A067 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/matrix3x3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix3x3.cpp; path = CGL/src/matrix3x3.cpp; sourceTree = SOURCE_ROOT; };
+		1F04F92E443C4F75A36D15DF /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector3D.cpp; path = CGL/src/vector3D.cpp; sourceTree = SOURCE_ROOT; };
+		1FD2B44807964F4CBAFEC01E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/path.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = path.cpp; path = CGL/src/path.cpp; sourceTree = SOURCE_ROOT; };
+		20678527E8134ABCBBA16AE9 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = CGL/deps/glfw/src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		2162F726E6604DFE83ED0261 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/spectrum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = spectrum.cpp; path = CGL/src/spectrum.cpp; sourceTree = SOURCE_ROOT; };
+		25A8B714AA944D43901B5DF2 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = CGL/deps/glfw/src/context.c; sourceTree = SOURCE_ROOT; };
+		2BDCBF6AC11D429BAA0C5002 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = CGL/deps/glfw/src/internal.h; sourceTree = SOURCE_ROOT; };
+		3288E8F5B9734D8CA3783BAB /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3BF8195BC5914AE5819D278E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/osdtext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = osdtext.cpp; path = CGL/src/osdtext.cpp; sourceTree = SOURCE_ROOT; };
+		3EC0B060D6644632AACD1D02 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = xcode/CGL/deps/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		3FCDA7FAF9E940EDA90E3B89 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = CGL/deps/glfw/src/input.c; sourceTree = SOURCE_ROOT; };
+		431A760C7E994381B29DAB04 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/lodepng.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lodepng.cpp; path = CGL/src/lodepng.cpp; sourceTree = SOURCE_ROOT; };
+		43823A01955D49E19E543520 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = CGL/deps/glfw/src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		44FF1922D5D04FC9B85DC5AC /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/complex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = complex.cpp; path = CGL/src/complex.cpp; sourceTree = SOURCE_ROOT; };
+		45F936188C334D2087D57C83 /* ropesim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ropesim; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1053CE1318487BBACA9420 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/base64.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base64.cpp; path = CGL/src/base64.cpp; sourceTree = SOURCE_ROOT; };
+		4DAAB76C39F844A28F4F379C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = CGL/deps/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		4DE048B665064FAB8D845ABD /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = CGL/deps/glfw/src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		57A57CEA18E447BD98E6B88E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/visualinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = visualinfo.c; path = CGL/deps/glew/src/visualinfo.c; sourceTree = SOURCE_ROOT; };
+		587532DA40744680987881B9 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/viewer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = viewer.cpp; path = CGL/src/viewer.cpp; sourceTree = SOURCE_ROOT; };
+		73F99A35E2404BD5AB04F7D2 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		7410817C620E4C1D86B04C0A /* CGL */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCGL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DDF43599954AC5A6054FCE /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = CGL/deps/glfw/src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		75BA1460609E427E912B7778 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = CGL/deps/glfw/src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		774A359F691740FC8AC3A0AE /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CGL/deps/glfw/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7DE3F125B090455F82C88BC8 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = CGL/deps/glfw/src/mappings.h; sourceTree = SOURCE_ROOT; };
+		85088B1177744274AB577833 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = CGL/deps/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		88120DBA4E1C4A338703C007 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CGL/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8886BFA37A724E67B703F5E7 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/osdfont.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = osdfont.cpp; path = CGL/src/osdfont.cpp; sourceTree = SOURCE_ROOT; };
+		88DB3232CF7D485E8982584D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = CGL/src/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		8B3EB995E7DE402D8F953D06 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color.cpp; path = CGL/src/color.cpp; sourceTree = SOURCE_ROOT; };
+		8C7ED250BFFC461E8F082F01 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = CGL/deps/glfw/src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		8C8B493CD34F423E88ADB041 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = CGL/deps/glfw/src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		8D837C8811E347A4B7E41F6E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/quaternion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quaternion.cpp; path = CGL/src/quaternion.cpp; sourceTree = SOURCE_ROOT; };
+		8EFF4973805C49FDB33C0239 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = CGL/deps/glew/src/glew.c; sourceTree = SOURCE_ROOT; };
+		936602F770D647C3BF810AE8 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CGL/deps/glfw/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		97281860555B4874A284518C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/matrix4x4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix4x4.cpp; path = CGL/src/matrix4x4.cpp; sourceTree = SOURCE_ROOT; };
+		97E56C6FF7F84A0C923B297F /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector4D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector4D.cpp; path = CGL/src/vector4D.cpp; sourceTree = SOURCE_ROOT; };
+		9A7FA483402C46B68431F1E0 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = CGL/deps/glfw/src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		A4BF4149250C433981D2BE9D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = CGL/deps/glfw/src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		A4D328F3BE554E208C4D9FC9 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92A5DDCD604422AAD34F30B /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector2D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector2D.cpp; path = CGL/src/vector2D.cpp; sourceTree = SOURCE_ROOT; };
+		ADFDC9744AAF4B8AB5E6762D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/application.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = application.cpp; path = src/application.cpp; sourceTree = SOURCE_ROOT; };
+		B10EB7A9937C48299E57563A /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		B287A92D2FE545D4BEC5761A /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = CGL/deps/glfw/src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		B304386B187145C790AFA123 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/rope.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rope.cpp; path = src/rope.cpp; sourceTree = SOURCE_ROOT; };
+		BA9FC4F40C6D45A5AAF66315 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = CGL/deps/glfw/src/monitor.c; sourceTree = SOURCE_ROOT; };
+		C92990DBA3A64BF894D8EAA6 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = CGL/deps/glfw/src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		D0D074EA72E3405EBAD7DC66 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = CGL/deps/glfw/src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		D66C1C87EE0440238C7308FC /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = CGL/deps/glfw/src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		DC6F939B7707459F853DB378 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CGL/deps/glew/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DF51112BBFF24EB48D9B6551 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = CGL/deps/glfw/src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		EABE0EE97CDA42E7AF791B7D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = CGL/deps/glfw/src/init.c; sourceTree = SOURCE_ROOT; };
+		EFB3532EEACD4040A7CDD48D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = CGL/deps/glfw/src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		F3914DCA46F847F69BCA257C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F8B097C6E26D431883C74935 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/glewinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glewinfo.c; path = CGL/deps/glew/src/glewinfo.c; sourceTree = SOURCE_ROOT; };
+		FF8CD4D57A1D495A8E81A4E1 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = CGL/deps/glfw/src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD6818BD10F448386EF34D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D22E7A57924CA8A01BC189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF5558624B4480AFBF5527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F8B9E80E6142D9B19B7581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F613B52D9A440AAC0EB4E7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		0A0F92B4A8B0425FB6EAE97A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1F2EB2B8491547CC9E1EBA31 /* CMake Rules */,
+				3288E8F5B9734D8CA3783BAB /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		0F582F1880D14C64A368EB7C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A1053CE1318487BBACA9420 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/base64.cpp */,
+				8B3EB995E7DE402D8F953D06 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/color.cpp */,
+				44FF1922D5D04FC9B85DC5AC /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/complex.cpp */,
+				431A760C7E994381B29DAB04 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/lodepng.cpp */,
+				1C7A23D8EDC64868B0D7A067 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/matrix3x3.cpp */,
+				97281860555B4874A284518C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/matrix4x4.cpp */,
+				8886BFA37A724E67B703F5E7 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/osdfont.cpp */,
+				3BF8195BC5914AE5819D278E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/osdtext.cpp */,
+				1FD2B44807964F4CBAFEC01E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/path.cpp */,
+				8D837C8811E347A4B7E41F6E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/quaternion.cpp */,
+				2162F726E6604DFE83ED0261 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/spectrum.cpp */,
+				88DB3232CF7D485E8982584D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/tinyxml2.cpp */,
+				A92A5DDCD604422AAD34F30B /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector2D.cpp */,
+				1F04F92E443C4F75A36D15DF /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector3D.cpp */,
+				97E56C6FF7F84A0C923B297F /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector4D.cpp */,
+				587532DA40744680987881B9 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/viewer.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0FC401CDB3CF4463B6E6DED7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF4973805C49FDB33C0239 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/glew.c */,
+				F8B097C6E26D431883C74935 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/glewinfo.c */,
+				57A57CEA18E447BD98E6B88E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/visualinfo.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1B80DA05A8A94E008ADCD59B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73F99A35E2404BD5AB04F7D2 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F2EB2B8491547CC9E1EBA31 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2BECBAB83E1840BFB7C8E6F3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADFDC9744AAF4B8AB5E6762D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/application.cpp */,
+				B10EB7A9937C48299E57563A /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/main.cpp */,
+				B304386B187145C790AFA123 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/rope.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		32936FB6079A429B8CDC24C6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				75BA1460609E427E912B7778 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_init.m */,
+				4DE048B665064FAB8D845ABD /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_joystick.m */,
+				20678527E8134ABCBBA16AE9 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_monitor.m */,
+				B287A92D2FE545D4BEC5761A /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_time.c */,
+				C92990DBA3A64BF894D8EAA6 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_window.m */,
+				25A8B714AA944D43901B5DF2 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/context.c */,
+				D0D074EA72E3405EBAD7DC66 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/egl_context.c */,
+				EABE0EE97CDA42E7AF791B7D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/init.c */,
+				3FCDA7FAF9E940EDA90E3B89 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/input.c */,
+				BA9FC4F40C6D45A5AAF66315 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/monitor.c */,
+				9A7FA483402C46B68431F1E0 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/nsgl_context.m */,
+				DF51112BBFF24EB48D9B6551 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/osmesa_context.c */,
+				FF8CD4D57A1D495A8E81A4E1 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/posix_thread.c */,
+				8C8B493CD34F423E88ADB041 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/vulkan.c */,
+				009EAF5E1E8F4F5EAE51DFB1 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		371F23B8F571413DB3261531 /* glew */ = {
+			isa = PBXGroup;
+			children = (
+				0FC401CDB3CF4463B6E6DED7 /* Source Files */,
+				DC6F939B7707459F853DB378 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/CMakeLists.txt */,
+			);
+			name = glew;
+			sourceTree = "<group>";
+		};
+		3966DE6B5BA742FEBE1A060B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7410817C620E4C1D86B04C0A /* CGL */,
+				0AB6CADDB8A446CF86E0B839 /* glew */,
+				A4D328F3BE554E208C4D9FC9 /* glfw */,
+				45F936188C334D2087D57C83 /* ropesim */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85285CBCDC7A4AC18E8536C9 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DAAB76C39F844A28F4F379C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include/GLFW/glfw3.h */,
+				85088B1177744274AB577833 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include/GLFW/glfw3native.h */,
+				A4BF4149250C433981D2BE9D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_joystick.h */,
+				8C7ED250BFFC461E8F082F01 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_platform.h */,
+				43823A01955D49E19E543520 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/egl_context.h */,
+				2BDCBF6AC11D429BAA0C5002 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/internal.h */,
+				7DE3F125B090455F82C88BC8 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/mappings.h */,
+				D66C1C87EE0440238C7308FC /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/nsgl_context.h */,
+				EFB3532EEACD4040A7CDD48D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/osmesa_context.h */,
+				74DDF43599954AC5A6054FCE /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/posix_thread.h */,
+				3EC0B060D6644632AACD1D02 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/glfw_config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		89C678DAC800474588094F94 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				01F613B52D9A440AAC0EB4E7 /* CMake Rules */,
+				936602F770D647C3BF810AE8 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		9397F375992B47CF8A67D1AA = {
+			isa = PBXGroup;
+			children = (
+				0A0F92B4A8B0425FB6EAE97A /* ALL_BUILD */,
+				F43D11A63E9E45F094C80F20 /* CGL */,
+				371F23B8F571413DB3261531 /* glew */,
+				E7C3AA63DB6A45AFB2F76CDD /* GLFW3 */,
+				F4C7CE76AF3C4F57B048126B /* ropesim */,
+				3966DE6B5BA742FEBE1A060B /* Products */,
+				1B80DA05A8A94E008ADCD59B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		965B407BC2374732966F0A0D /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				85285CBCDC7A4AC18E8536C9 /* Header Files */,
+				32936FB6079A429B8CDC24C6 /* Source Files */,
+				774A359F691740FC8AC3A0AE /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		E7C3AA63DB6A45AFB2F76CDD /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				89C678DAC800474588094F94 /* uninstall */,
+				965B407BC2374732966F0A0D /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		F43D11A63E9E45F094C80F20 /* CGL */ = {
+			isa = PBXGroup;
+			children = (
+				0F582F1880D14C64A368EB7C /* Source Files */,
+				88120DBA4E1C4A338703C007 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/CMakeLists.txt */,
+			);
+			name = CGL;
+			sourceTree = "<group>";
+		};
+		F4C7CE76AF3C4F57B048126B /* ropesim */ = {
+			isa = PBXGroup;
+			children = (
+				2BECBAB83E1840BFB7C8E6F3 /* Source Files */,
+				F3914DCA46F847F69BCA257C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/CMakeLists.txt */,
+			);
+			name = ropesim;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28C3E17ACA2C405DAA1BA7FA /* glew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D421AFF23784B1A819D8398 /* Build configuration list for PBXNativeTarget "glew" */;
+			buildPhases = (
+				406C82D352644BBAA770D89C /* Sources */,
+				3DD6818BD10F448386EF34D5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498DADA4FACD470FB1DF9FC6 /* PBXTargetDependency */,
+			);
+			name = glew;
+			productName = glew;
+			productReference = 0AB6CADDB8A446CF86E0B839 /* glew */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5E540913457246659FB28859 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C49DE5B9C654AC4A511BF32 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				31E584EAE6C84E3FB6CFBE40 /* Sources */,
+				C6F8B9E80E6142D9B19B7581 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C79C212B12C8493A8C6E7EC9 /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = A4D328F3BE554E208C4D9FC9 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+		845E9EE9F3994A71959525DB /* CGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F63C6279BA342C3A716E52B /* Build configuration list for PBXNativeTarget "CGL" */;
+			buildPhases = (
+				9636517F01B946A0A7C31766 /* Sources */,
+				47D22E7A57924CA8A01BC189 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B801A99F767B4ADF94D1AF03 /* PBXTargetDependency */,
+				56BF8792B14F4EA88967B269 /* PBXTargetDependency */,
+			);
+			name = CGL;
+			productName = CGL;
+			productReference = 7410817C620E4C1D86B04C0A /* CGL */;
+			productType = "com.apple.product-type.library.static";
+		};
+		979FD2A22FFB4B1AA0B31523 /* ropesim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F7DC4CC46A3444397F18B89 /* Build configuration list for PBXNativeTarget "ropesim" */;
+			buildPhases = (
+				BB3C2798BD1A4757A483991C /* Sources */,
+				55DF5558624B4480AFBF5527 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58864103D90044AF8028BF45 /* PBXTargetDependency */,
+				2E26A090C2464AA6ABA8A8BE /* PBXTargetDependency */,
+				B6B2857DFC744952B769429D /* PBXTargetDependency */,
+				A4ACB5CDC1AF4435975CB39C /* PBXTargetDependency */,
+			);
+			name = ropesim;
+			productName = ropesim;
+			productReference = 45F936188C334D2087D57C83 /* ropesim */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D07093C5BA84B4DA7D9B20F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 99B3781E57D8401AAC497F68 /* Build configuration list for PBXProject "RopeSim" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A92EB66DB07F4E37B1A0A0CE /* Debug */,
+				BBC2B4A898894D0AAA4D126A /* Release */,
+				27F9A327BCAB48D0B90518F0 /* MinSizeRel */,
+				059AAFB746234257AC57B1BC /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9397F375992B47CF8A67D1AA;
+			projectDirPath = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation;
+			projectRoot = "";
+			targets = (
+				74EB012591084DD598CAA23D /* ALL_BUILD */,
+				845E9EE9F3994A71959525DB /* CGL */,
+				F866F1FF82CF4256A1424597 /* ZERO_CHECK */,
+				28C3E17ACA2C405DAA1BA7FA /* glew */,
+				5E540913457246659FB28859 /* glfw */,
+				E9890C93D1EA4FE98F987081 /* install */,
+				979FD2A22FFB4B1AA0B31523 /* ropesim */,
+				58E2C5F21AEC4431B3757919 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22FF245F0D850990E987CDB8 /* Generate CGL/deps/glfw/CMakeFiles/uninstall */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CGL/deps/glfw/CMakeFiles/uninstall";
+			outputPaths = (
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/CMakeFiles/uninstall			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -P /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -P /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -P /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -P /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C8B9B9628600475EB03CBF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		66DAD5CABC20674CC906CBED /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F665711106D2B577C7CEB00C /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode
+  make -f /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode
+  make -f /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode
+  make -f /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode
+  make -f /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31E584EAE6C84E3FB6CFBE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F916969608C48E78D0975E2 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_init.m */,
+				36A2F771753C4974A0E3AE2E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_joystick.m */,
+				BACD547A61694ED2AA12C6B7 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_monitor.m */,
+				BFD1409E90EA4CAAB377536A /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_time.c */,
+				ECAA4A43CC244097BA5CCECE /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/cocoa_window.m */,
+				0118DFE54EF04AF3A6A88DCF /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/context.c */,
+				461CA98DCA544FD1B9957397 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/egl_context.c */,
+				45A2A31F119843D6A7C5EBC8 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/init.c */,
+				D5100AB8AE8A4A1D849AFE61 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/input.c */,
+				D0CE76B9F57E46E1BBC3A45B /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/monitor.c */,
+				95B0376767C84A6086E850DE /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/nsgl_context.m */,
+				FAF75E5FD23540C4A0898296 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/osmesa_context.c */,
+				835DC411BB8048F2808B89C3 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/posix_thread.c */,
+				273E997BBDCD474783CA116E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/vulkan.c */,
+				3706EBDF2A5344E2A07DD7E1 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406C82D352644BBAA770D89C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD9A1B403E347ED80B39CF3 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/glew.c */,
+				C8EC909344D241EEAD911616 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/glewinfo.c */,
+				FA2B35581789464F820C922B /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/src/visualinfo.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9636517F01B946A0A7C31766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7FA4E700F747209A5C5A24 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/base64.cpp */,
+				CE06B984583140AC80EDF071 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/color.cpp */,
+				2FFAD30C18B4455D84B3C77E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/complex.cpp */,
+				3458AA22295D4E46B8BAB32C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/lodepng.cpp */,
+				6C63CDD030E248909A07C9DA /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/matrix3x3.cpp */,
+				76D6546DCE2C4E2BBFFE4076 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/matrix4x4.cpp */,
+				F9B2C97FF614439DA19AA326 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/osdfont.cpp */,
+				D501DCC6CF034C388333FCF7 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/osdtext.cpp */,
+				515056F6197B4DB8B1FCB88E /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/path.cpp */,
+				6323FEC57D954DF8993C02B7 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/quaternion.cpp */,
+				6F73109461274E7BAB54D122 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/spectrum.cpp */,
+				20200D2A0F55435E8C3C761D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/tinyxml2.cpp */,
+				939F1375448848CA96DB6F8C /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector2D.cpp */,
+				8B1987D0A10E4A4C8B1BDB6D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector3D.cpp */,
+				0D4287B298EC4AD8939B1B00 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/vector4D.cpp */,
+				F2D524CAFD3B470C8485634D /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/src/viewer.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3C2798BD1A4757A483991C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C03BDA9AE5432099DBB9B2 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/application.cpp */,
+				2F14B058CEA643C1902BDBE2 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/main.cpp */,
+				F8C0E23CFBC94896B2247172 /* /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/src/rope.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259A11DE4F42457BA06A30D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845E9EE9F3994A71959525DB /* CGL */;
+			targetProxy = 93A9AA9A66B24EE39C7F466F /* PBXContainerItemProxy */;
+		};
+		2E26A090C2464AA6ABA8A8BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C3E17ACA2C405DAA1BA7FA /* glew */;
+			targetProxy = BF55B5359C41420298802B66 /* PBXContainerItemProxy */;
+		};
+		3ABDE68F075B4335A8108E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979FD2A22FFB4B1AA0B31523 /* ropesim */;
+			targetProxy = C09BC3D990604ED39465DF0B /* PBXContainerItemProxy */;
+		};
+		498DADA4FACD470FB1DF9FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F866F1FF82CF4256A1424597 /* ZERO_CHECK */;
+			targetProxy = 1C9FB49B7312423598E163D7 /* PBXContainerItemProxy */;
+		};
+		4C6F338B5CFA49F5A2975E99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E540913457246659FB28859 /* glfw */;
+			targetProxy = D707299AA78A462DAB83C527 /* PBXContainerItemProxy */;
+		};
+		55DD249D14A1460F9A33A4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C3E17ACA2C405DAA1BA7FA /* glew */;
+			targetProxy = 9619690BA9E144DCB70CF745 /* PBXContainerItemProxy */;
+		};
+		56BF8792B14F4EA88967B269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E540913457246659FB28859 /* glfw */;
+			targetProxy = 8601C91F76D9434B8CEB120E /* PBXContainerItemProxy */;
+		};
+		58864103D90044AF8028BF45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F866F1FF82CF4256A1424597 /* ZERO_CHECK */;
+			targetProxy = 2280EB2CB22341408CD0804B /* PBXContainerItemProxy */;
+		};
+		82699A0D475B4BEB8BE0BE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F866F1FF82CF4256A1424597 /* ZERO_CHECK */;
+			targetProxy = E6D95F5111CF4F4684FD3348 /* PBXContainerItemProxy */;
+		};
+		A4ACB5CDC1AF4435975CB39C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845E9EE9F3994A71959525DB /* CGL */;
+			targetProxy = 336DB31DBAF244B88EAFBCB7 /* PBXContainerItemProxy */;
+		};
+		B6B2857DFC744952B769429D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E540913457246659FB28859 /* glfw */;
+			targetProxy = 4E4CA34CD5E044C3AB7DCC73 /* PBXContainerItemProxy */;
+		};
+		B801A99F767B4ADF94D1AF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C3E17ACA2C405DAA1BA7FA /* glew */;
+			targetProxy = AB7D7C304CC844A7BB690021 /* PBXContainerItemProxy */;
+		};
+		C79C212B12C8493A8C6E7EC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F866F1FF82CF4256A1424597 /* ZERO_CHECK */;
+			targetProxy = 256499B4196B478A90163892 /* PBXContainerItemProxy */;
+		};
+		E969375DA52048DA92CCF459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74EB012591084DD598CAA23D /* ALL_BUILD */;
+			targetProxy = A9D1EEBCFE8C49289CDF333D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0425B3370501455297DBD47C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glew/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC        -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1BE204F925F44F0F958C5005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC    -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1CFB6F355D2646DB84436A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		22E8B6E076F348F897F3F614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		23BCC4E33F8C40679511024E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		345BDBC6BB1149EBB8090B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include,/usr/local/include/freetype2,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include/CGL,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64     -funroll-loops -Wno-narrowing -Wno-deprecated-register    -Wno-deprecated-declarations -Wno-c++11-extensions ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/Debug/libCGL.a,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glew/Debug/libglew.a,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/Debug/libglfw3.a,"-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libfreetype.dylib,"-framework Cocoa","-framework IOKit","-framework CoreFoundation",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ropesim;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/ropesim.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3E1C3F05C4E041FC899D10A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include/CGL,/usr/local/include/freetype2,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64     -funroll-loops -Wno-narrowing -Wno-deprecated-register -std=c++11 -m64 -fPIC      -mavx2    ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3EFF8B0B817A465DA90C7A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		466EA39D5534446CA5635A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glew/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC    ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4E7665E704B6412B8F635A36 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include,/usr/local/include/freetype2,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include/CGL,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64     -funroll-loops -Wno-narrowing -Wno-deprecated-register     -DNDEBUG -Wno-deprecated-declarations -Wno-c++11-extensions ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/MinSizeRel/libCGL.a,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glew/MinSizeRel/libglew.a,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/MinSizeRel/libglfw3.a,"-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libfreetype.dylib,"-framework Cocoa","-framework IOKit","-framework CoreFoundation",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ropesim;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/ropesim.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4F1A10AB576C48E285377186 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5346EA5FBAB74F34992D17D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include,/usr/local/include/freetype2,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include/CGL,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64     -funroll-loops -Wno-narrowing -Wno-deprecated-register     -DNDEBUG -Wno-deprecated-declarations -Wno-c++11-extensions ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/Release/libCGL.a,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glew/Release/libglew.a,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/Release/libglfw3.a,"-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libfreetype.dylib,"-framework Cocoa","-framework IOKit","-framework CoreFoundation",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ropesim;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/ropesim.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6462AF5AAC1A4F4BA0AF07F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		68A1DB1FBD364C4ABA70DA18 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		691556B80B364CE5B4D28C85 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		69569AE629A341CF95E7F6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		86C440BEA1EE46E59EACA99D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC        -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8ADBA66D7958466E87CB781E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9213AF8F5B084F35916D2048 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include/CGL,/usr/local/include/freetype2,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64     -funroll-loops -Wno-narrowing -Wno-deprecated-register -std=c++11 -m64 -fPIC      -mavx2        -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		98D40521E58043D39301743A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A306207E11BC4743A1D9E12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glew/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A8906923E7794164B6477AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include/CGL,/usr/local/include/freetype2,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64     -funroll-loops -Wno-narrowing -Wno-deprecated-register -std=c++11 -m64 -fPIC      -mavx2     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AFD4443194114004AB5E3E7E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AFDDAF0C121543718BF5C544 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B972788E54F2486189FD34BB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include/CGL,/usr/local/include/freetype2,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64     -funroll-loops -Wno-narrowing -Wno-deprecated-register -std=c++11 -m64 -fPIC      -mavx2     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BA0183F9EB2046B29730F831 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		BBA4531722574D538660B0F7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C2864C61FB50450E8BC67D5D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/src,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CC1337E4921542E7BBCD46B3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CEFC83F0BFD14856AB9BFABB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DA28EAF84F0948778D19FBE5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glew/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DE6113D0D4A444A79A515E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build;
+			};
+			name = Debug;
+		};
+		DFB6E3384DE7411CAA19F4BD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include,/usr/local/include/freetype2,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/include/CGL,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glew/include,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/CGL/deps/glfw/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64     -funroll-loops -Wno-narrowing -Wno-deprecated-register        -DNDEBUG -Wno-deprecated-declarations -Wno-c++11-extensions ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/RelWithDebInfo/libCGL.a,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glew/RelWithDebInfo/libglew.a,/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/RelWithDebInfo/libglfw3.a,"-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libfreetype.dylib,"-framework Cocoa","-framework IOKit","-framework CoreFoundation",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ropesim;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build/ropesim.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		ED6568F2D7A84F75A59D239D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F2251976682943ABA325EAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/build;
+			};
+			name = Release;
+		};
+		F81D881229EE47A6BBEADA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D421AFF23784B1A819D8398 /* Build configuration list for PBXNativeTarget "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466EA39D5534446CA5635A44 /* Debug */,
+				A306207E11BC4743A1D9E12F /* Release */,
+				DA28EAF84F0948778D19FBE5 /* MinSizeRel */,
+				0425B3370501455297DBD47C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2A1033AA4D3D40A486FA3C4C /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81D881229EE47A6BBEADA0A /* Debug */,
+				3EFF8B0B817A465DA90C7A11 /* Release */,
+				ED6568F2D7A84F75A59D239D /* MinSizeRel */,
+				68A1DB1FBD364C4ABA70DA18 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		376A9FD888954356A3C697BE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BCC4E33F8C40679511024E /* Debug */,
+				22E8B6E076F348F897F3F614 /* Release */,
+				4F1A10AB576C48E285377186 /* MinSizeRel */,
+				BBA4531722574D538660B0F7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F63C6279BA342C3A716E52B /* Build configuration list for PBXNativeTarget "CGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1C3F05C4E041FC899D10A1 /* Debug */,
+				A8906923E7794164B6477AF5 /* Release */,
+				B972788E54F2486189FD34BB /* MinSizeRel */,
+				9213AF8F5B084F35916D2048 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F7DC4CC46A3444397F18B89 /* Build configuration list for PBXNativeTarget "ropesim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345BDBC6BB1149EBB8090B19 /* Debug */,
+				5346EA5FBAB74F34992D17D0 /* Release */,
+				4E7665E704B6412B8F635A36 /* MinSizeRel */,
+				DFB6E3384DE7411CAA19F4BD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		99B3781E57D8401AAC497F68 /* Build configuration list for PBXProject "RopeSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6113D0D4A444A79A515E04 /* Debug */,
+				F2251976682943ABA325EAE4 /* Release */,
+				BA0183F9EB2046B29730F831 /* MinSizeRel */,
+				691556B80B364CE5B4D28C85 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9C49DE5B9C654AC4A511BF32 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE204F925F44F0F958C5005 /* Debug */,
+				6462AF5AAC1A4F4BA0AF07F9 /* Release */,
+				C2864C61FB50450E8BC67D5D /* MinSizeRel */,
+				86C440BEA1EE46E59EACA99D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA321F6331394FDABF6EBF26 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D40521E58043D39301743A /* Debug */,
+				1CFB6F355D2646DB84436A1B /* Release */,
+				CC1337E4921542E7BBCD46B3 /* MinSizeRel */,
+				CEFC83F0BFD14856AB9BFABB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ECFC588022D149FE82A453F9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69569AE629A341CF95E7F6CE /* Debug */,
+				8ADBA66D7958466E87CB781E /* Release */,
+				AFDDAF0C121543718BF5C544 /* MinSizeRel */,
+				AFD4443194114004AB5E3E7E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D07093C5BA84B4DA7D9B20F /* Project object */;
+}

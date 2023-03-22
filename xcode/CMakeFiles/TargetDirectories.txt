@@ -1,0 +1,17 @@
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CMakeFiles/install.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/CMakeFiles/CGL.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/CMakeFiles/install.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/CMakeFiles/ALL_BUILD.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/CMakeFiles/ZERO_CHECK.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glew/CMakeFiles/glew.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glew/CMakeFiles/install.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/CMakeFiles/uninstall.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/CMakeFiles/install.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/CMakeFiles/ALL_BUILD.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/CMakeFiles/ZERO_CHECK.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/CMakeFiles/glfw.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/CGL/deps/glfw/src/CMakeFiles/install.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/src/CMakeFiles/ropesim.dir
+/Users/camilamesquita/Dropbox/Camila/Berkeley/CS184/rope_simulation/xcode/src/CMakeFiles/install.dir
